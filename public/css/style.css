@@ -1,15 +1,15 @@
 @font-face {
-  src: url('./assets/SFAlienEncounters.ttf');
+  src: url('../assets/SFAlienEncounters.ttf');
   font-family: 'SF Alien Encounters';
 }
 
 @font-face {
-  src: url('./assets/Streamster.ttf');
+  src: url('../assets/Streamster.ttf');
   font-family: 'Streamster';
 }
 
 @font-face {
-  src: url('./assets/NeonGlow-8VLz.ttf');
+  src: url('../assets/NeonGlow-8VLz.ttf');
   font-family: 'Neon Glow';
 }
 
@@ -26,7 +26,7 @@ body {
 .container {
   width: 100vw;
   height: 100vh;
-  background: url('./images/bg.jpg') no-repeat center center;
+  background: url('../images/bg.jpg') no-repeat center center;
   background-size: cover;
   display: flex;
   flex-direction: column;
