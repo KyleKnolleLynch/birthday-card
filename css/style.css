@@ -21,13 +21,13 @@
 
 body {
   overflow: hidden;
+  background: url('../images/bg-img.jpg') center center no-repeat;
+  background-size: cover;
 }
 
 .container {
   width: 100vw;
   height: 100vh;
-  background: url('../images/bg-img.jpg') no-repeat center center;
-  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,10 +66,10 @@ h2 {
   font-size: 2em;
   margin-bottom: 12rem;
   color: #fff;
-  -webkit-animation: glow 1500ms ease-in-out infinite alternate;
-  -moz-animation: glow 1500ms ease-in-out infinite alternate;
-  -o-animation: glow 1500ms ease-in-out infinite alternate;
-  animation: glow 1500ms ease-in-out infinite alternate;
+  animation: glow 1500ms linear infinite alternate;
+  -webkit-animation: glow 1500ms linear infinite alternate;
+  -moz-animation: glow 1500ms linear infinite alternate;
+  -o-animation: glow 1500ms linear infinite alternate;
 }
 
 p {
@@ -85,10 +85,10 @@ p {
 }
 
 p span {
+  animation: flicker 3000ms linear infinite alternate;
   -webkit-animation: flicker 3000ms linear infinite alternate;
   -moz-animation: flicker 3000ms linear infinite alternate;
   -o-animation: flicker 3000ms linear infinite alternate;
-  animation: flicker 3000ms linear infinite alternate;
 }
 
 @-webkit-keyframes flicker {
