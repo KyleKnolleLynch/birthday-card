@@ -21,9 +21,7 @@
 
 body {
   overflow: hidden;
-  background-image: url('../images/bg-img.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
+  background: url('../images/bg-img.png') center center no-repeat;
   background-size: cover;
 }
 
