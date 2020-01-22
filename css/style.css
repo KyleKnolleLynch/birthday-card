@@ -89,33 +89,24 @@ p {
 }
 
 p span:nth-child(1) {
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  animation: flicker 3000ms linear infinite;
-  -webkit-animation: flicker 3000ms linear infinite;
-  -moz-animation: flicker 3000ms linear infinite;
-  -o-animation: flicker 3000ms linear infinite;
+  animation: flicker 2000ms linear infinite;
+  -webkit-animation: flicker 2000ms linear infinite;
+  -moz-animation: flicker 2000ms linear infinite;
+  -o-animation: flicker 2000ms linear infinite;
 }
 
 p span:nth-child(2) {
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  animation: flicker 2000ms linear infinite alternate;
-  -webkit-animation: flicker 2000ms linear infinite alternate;
-  -moz-animation: flicker 2000ms linear infinite alternate;
-  -o-animation: flicker 2000ms linear infinite alternate;
+  animation: flicker 1500ms linear infinite alternate;
+  -webkit-animation: flicker 1500ms linear infinite alternate;
+  -moz-animation: flicker 1500ms linear infinite alternate;
+  -o-animation: flicker 1500ms linear infinite alternate;
 }
 
 p span:nth-child(3) {
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  animation: flicker 4500ms linear infinite alternate;
-  -webkit-animation: flicker 4500ms linear infinite alternate;
-  -moz-animation: flicker 4500ms linear infinite alternate;
-  -o-animation: flicker 4500ms linear infinite alternate;
+  animation: flicker 3500ms linear infinite alternate;
+  -webkit-animation: flicker 3500ms linear infinite alternate;
+  -moz-animation: flicker 3500ms linear infinite alternate;
+  -o-animation: flicker 3500ms linear infinite alternate;
 }
 
 @-webkit-keyframes flicker {
