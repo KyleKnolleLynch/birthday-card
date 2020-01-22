@@ -21,7 +21,8 @@
 
 body {
   overflow: hidden;
-  background: url('../images/bg-img.png') center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('../images/bg-img.png') center center no-repeat;
   background-size: cover;
 }
 
