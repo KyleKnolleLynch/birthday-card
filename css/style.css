@@ -239,52 +239,56 @@ p span:nth-child(3) {
 @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 8px hotpink,
-      0 0 12px hotpink, 0 0 16px hotpink, 0 0 20px hotpink, 0 0 24px hotpink,
+      0 0 12px hotpink, 0 0 16px hotpink, 0 0 20px hotpink, 0 0 30px hotpink,
       0 0 40px hotpink, 0 0 60px hotpink;
   }
 
   to {
-    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff, 0 0 2px hotpink,
-      0 0 4px hotpink, 0 0 8px hotpink, 0 0 10px hotpink, 0 0 14px hotpink;
+    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff, 0 0 4px hotpink,
+      0 0 6px hotpink, 0 0 8px hotpink, 0 0 10px hotpink, 0 0 12px hotpink,
+      0 0 14px hotpink, 0 0 16px hotpink;
   }
 }
 
 @-moz-keyframes glow {
   from {
     text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 8px hotpink,
-      0 0 12px hotpink, 0 0 16px hotpink, 0 0 20px hotpink, 0 0 24px hotpink,
+      0 0 12px hotpink, 0 0 16px hotpink, 0 0 20px hotpink, 0 0 30px hotpink,
       0 0 40px hotpink, 0 0 60px hotpink;
   }
 
   to {
-    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff, 0 0 2px hotpink,
-      0 0 4px hotpink, 0 0 8px hotpink, 0 0 10px hotpink, 0 0 14px hotpink;
+    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff, 0 0 4px hotpink,
+      0 0 6px hotpink, 0 0 8px hotpink, 0 0 10px hotpink, 0 0 12px hotpink,
+      0 0 14px hotpink, 0 0 16px hotpink;
   }
 }
 
 @-o-keyframes glow {
   from {
     text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 8px hotpink,
-      0 0 12px hotpink, 0 0 16px hotpink, 0 0 20px hotpink, 0 0 24px hotpink,
+      0 0 12px hotpink, 0 0 16px hotpink, 0 0 20px hotpink, 0 0 30px hotpink,
       0 0 40px hotpink, 0 0 60px hotpink;
   }
 
   to {
-    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff, 0 0 2px hotpink,
-      0 0 4px hotpink, 0 0 8px hotpink, 0 0 10px hotpink, 0 0 14px hotpink;
+    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff, 0 0 4px hotpink,
+      0 0 6px hotpink, 0 0 8px hotpink, 0 0 10px hotpink, 0 0 12px hotpink,
+      0 0 14px hotpink, 0 0 16px hotpink;
   }
 }
 
 @keyframes glow {
   from {
     text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 8px hotpink,
-      0 0 12px hotpink, 0 0 16px hotpink, 0 0 20px hotpink, 0 0 24px hotpink,
+      0 0 12px hotpink, 0 0 16px hotpink, 0 0 20px hotpink, 0 0 30px hotpink,
       0 0 40px hotpink, 0 0 60px hotpink;
   }
 
   to {
-    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff, 0 0 2px hotpink,
-      0 0 4px hotpink, 0 0 8px hotpink, 0 0 10px hotpink, 0 0 14px hotpink;
+    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff, 0 0 4px hotpink,
+      0 0 6px hotpink, 0 0 8px hotpink, 0 0 10px hotpink, 0 0 12px hotpink,
+      0 0 14px hotpink, 0 0 16px hotpink;
   }
 }
 
