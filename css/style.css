@@ -37,10 +37,11 @@ body {
 
 .backdrop {
   background: linear-gradient(
-    hotpink 7%,
+    hotpink 6%,
     ghostwhite,
     gainsboro,
-    darkgrey 20%,
+    darkgrey,
+    darkgrey 24%,
     rgb(90, 216, 238),
     rgb(90, 216, 238) 60%,
     rgb(129, 129, 129) 65%,
@@ -239,7 +240,7 @@ p span:nth-child(3) {
   from {
     text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 8px hotpink,
       0 0 12px hotpink, 0 0 16px hotpink, 0 0 20px hotpink, 0 0 24px hotpink,
-      0 0 40px hotpink;
+      0 0 40px hotpink, 0 0 60px hotpink;
   }
 
   to {
@@ -252,7 +253,7 @@ p span:nth-child(3) {
   from {
     text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 8px hotpink,
       0 0 12px hotpink, 0 0 16px hotpink, 0 0 20px hotpink, 0 0 24px hotpink,
-      0 0 40px hotpink;
+      0 0 40px hotpink, 0 0 60px hotpink;
   }
 
   to {
@@ -265,7 +266,7 @@ p span:nth-child(3) {
   from {
     text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 8px hotpink,
       0 0 12px hotpink, 0 0 16px hotpink, 0 0 20px hotpink, 0 0 24px hotpink,
-      0 0 40px hotpink;
+      0 0 40px hotpink, 0 0 60px hotpink;
   }
 
   to {
@@ -278,7 +279,7 @@ p span:nth-child(3) {
   from {
     text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 8px hotpink,
       0 0 12px hotpink, 0 0 16px hotpink, 0 0 20px hotpink, 0 0 24px hotpink,
-      0 0 40px hotpink;
+      0 0 40px hotpink, 0 0 60px hotpink;
   }
 
   to {
