@@ -73,10 +73,10 @@ h2 {
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
-  animation: glow 1500ms linear infinite alternate;
-  -webkit-animation: glow 1500ms linear infinite alternate;
-  -moz-animation: glow 1500ms linear infinite alternate;
-  -o-animation: glow 1500ms linear infinite alternate;
+  animation: glow 1000ms linear infinite alternate;
+  -webkit-animation: glow 1000ms linear infinite alternate;
+  -moz-animation: glow 1000ms linear infinite alternate;
+  -o-animation: glow 1000ms linear infinite alternate;
 }
 
 p {
