@@ -37,8 +37,10 @@ body {
 
 .backdrop {
   background: linear-gradient(
-    rgb(189, 186, 186),
-    rgb(239, 255, 254) 25%,
+    hotpink 7%,
+    ghostwhite,
+    gainsboro,
+    darkgrey 20%,
     rgb(90, 216, 238),
     rgb(90, 216, 238) 60%,
     rgb(129, 129, 129) 65%,
@@ -87,14 +89,34 @@ p {
     0 0 4px cyan, 0 0 6px cyan, 0 0 10px cyan, 0 0 14px cyan;
 }
 
-p span {
+p span:nth-child(1) {
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
-  animation: flicker 3000ms linear infinite alternate;
-  -webkit-animation: flicker 3000ms linear infinite alternate;
-  -moz-animation: flicker 3000ms linear infinite alternate;
-  -o-animation: flicker 3000ms linear infinite alternate;
+  animation: flicker 3000ms linear infinite;
+  -webkit-animation: flicker 3000ms linear infinite;
+  -moz-animation: flicker 3000ms linear infinite;
+  -o-animation: flicker 3000ms linear infinite;
+}
+
+p span:nth-child(2) {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  animation: flicker 2000ms linear infinite alternate;
+  -webkit-animation: flicker 2000ms linear infinite alternate;
+  -moz-animation: flicker 2000ms linear infinite alternate;
+  -o-animation: flicker 2000ms linear infinite alternate;
+}
+
+p span:nth-child(3) {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  animation: flicker 4500ms linear infinite alternate;
+  -webkit-animation: flicker 4500ms linear infinite alternate;
+  -moz-animation: flicker 4500ms linear infinite alternate;
+  -o-animation: flicker 4500ms linear infinite alternate;
 }
 
 @-webkit-keyframes flicker {
@@ -262,5 +284,32 @@ p span {
   to {
     text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff, 0 0 2px hotpink,
       0 0 4px hotpink, 0 0 8px hotpink, 0 0 10px hotpink, 0 0 14px hotpink;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 8em;
+  }
+  h2 {
+    font-size: 4em;
+    letter-spacing: 12px;
+  }
+  p {
+    font-size: 4.2em;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  h1 {
+    font-size: 4em;
+  }
+  h2 {
+    margin-bottom: 3rem;
+    font-size: 1.7em;
+  }
+  p {
+    bottom: 1rem;
+    font-size: 1.8em;
   }
 }
