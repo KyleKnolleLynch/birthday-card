@@ -70,13 +70,10 @@ h2 {
   font-size: 2em;
   margin-bottom: 12rem;
   color: #fff;
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  animation: glow 1000ms linear infinite alternate;
-  -webkit-animation: glow 1000ms linear infinite alternate;
-  -moz-animation: glow 1000ms linear infinite alternate;
-  -o-animation: glow 1000ms linear infinite alternate;
+  animation: glow 750ms linear infinite alternate;
+  -webkit-animation: glow 750ms linear infinite alternate;
+  -moz-animation: glow 750ms linear infinite alternate;
+  -o-animation: glow 750ms linear infinite alternate;
 }
 
 p {
